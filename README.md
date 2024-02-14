@@ -26,10 +26,19 @@ Projekt ten jest częścią zadania rekrutacyjnego i zawiera kod źródłowy ora
 ## Użytkowanie
 
 - Po zainstalowaniu i skonfigurowaniu aplikacji, zaloguj się na stronie:
+
 - Login: test
 - Hasło: Test1
 
 - Po zalogowaniu będziesz miał dostęp do funkcji generowania raportów.
+
+## Strona internetowa
+
+Strona internetowa, na której znajduje się aplikacja do generowania raportów, dostępna jest pod adresem:
+
+[https://zadanierekrutacyjne.site/](https://zadanierekrutacyjne.site/)
+
+Strona ta umożliwia użytkownikowi logowanie i generowanie raportów.
 
 ## Testowanie API
 
@@ -38,6 +47,7 @@ Szczegółowe informacje na temat testowania API znajdziesz w repozytorium [zada
 ## Autor
 
 Kamil Król
+
 
 
 
