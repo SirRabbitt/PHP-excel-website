@@ -1,4 +1,4 @@
-# Zadanie Rekrutacyjne - Raportowanie
+# Zadanie Rekrutacyjne - Excel php
 
 ## Wymagania
 
