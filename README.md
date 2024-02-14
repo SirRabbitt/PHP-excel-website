@@ -21,7 +21,7 @@ Projekt ten jest częścią zadania rekrutacyjnego i zawiera kod źródłowy ora
 
 5. Skonfiguruj połączenie do bazy danych, edytując plik `config.php`.
 
-6. Uruchom aplikację na serwerze WWW.
+
 
 ## Użytkowanie
 
