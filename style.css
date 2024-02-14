@@ -1,0 +1,132 @@
+/* Podstawowe style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Stylowanie nagłówka */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Stylowanie menu głównego */
+.menu-main {
+  list-style: none;
+  display: flex; /* Ustawienie elementów obok siebie */
+  padding: 0;
+  margin-right: 20px; /* Odstęp między menu głównym a menu użytkownika */
+}
+
+.menu-main li {
+  margin-right: 20px; /* Odstęp między elementami menu */
+}
+
+.menu-main a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-main a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+/* Stylowanie menu użytkownika */
+.menu-member {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu-member li {
+  margin-left: 20px;
+}
+
+.menu-member a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-member a:hover {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+/* Stylowanie sekcji logowania */
+.index-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Minimalna wysokość, aby zajmować większą część widoku */
+}
+
+/* Stylowanie diva wrapper */
+.wrapper {
+  max-width: 400px; /* Maksymalna szerokość diva */
+  width: 100%; /* Domyślna szerokość */
+  margin: 0 auto; /* Wyśrodkowanie diva */
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+/* Stylowanie formularza */
+.index-login-login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index-login-login form input,
+.index-login-login form button {
+  width: 100%; /* Szerokość w stosunku do kontenera */
+  max-width: 300px; /* Maksymalna szerokość elementów formularza */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.index-login-login form button {
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+.index-login-login form button:hover {
+  background-color: #444;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tableContainer, #myChart {
+  flex: 1;
+}
