@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         showDownloadButton(startDate, endDate)
     });
 });
+
 function generateTable(startDate, endDate) {
     var container = document.getElementById('tableContainer');
     container.innerHTML = '';
